@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-calendar/static/css/main.e3c1b437.chunk.css",
+    "main.js": "/react-calendar/static/js/main.52ca3c8f.chunk.js",
+    "main.js.map": "/react-calendar/static/js/main.52ca3c8f.chunk.js.map",
+    "runtime-main.js": "/react-calendar/static/js/runtime-main.c4862472.js",
+    "runtime-main.js.map": "/react-calendar/static/js/runtime-main.c4862472.js.map",
+    "static/js/2.c9a0db07.chunk.js": "/react-calendar/static/js/2.c9a0db07.chunk.js",
+    "static/js/2.c9a0db07.chunk.js.map": "/react-calendar/static/js/2.c9a0db07.chunk.js.map",
+    "index.html": "/react-calendar/index.html",
+    "static/css/main.e3c1b437.chunk.css.map": "/react-calendar/static/css/main.e3c1b437.chunk.css.map",
+    "static/js/2.c9a0db07.chunk.js.LICENSE.txt": "/react-calendar/static/js/2.c9a0db07.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/react-calendar/static/media/mountains.29aa7b36.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4862472.js",
+    "static/js/2.c9a0db07.chunk.js",
+    "static/css/main.e3c1b437.chunk.css",
+    "static/js/main.52ca3c8f.chunk.js"
+  ]
+}
