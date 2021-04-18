@@ -16,6 +16,8 @@ Preprost grafičen koledar, ki prikazuje trenutni mesec in leto. Poleg tega na p
 
 Za ponvaljajoče praznike je vnešeno število 0. Prazniki so prikazani le za trenutni mesec.
 
+Prazniki so shranjeni v datoteki /public/dates.txt
+
 ## Uporabljene tehnologije
 
 Za izdelavo spletne strani sta bila uporabljena ReactJS in SCSS. Za pridobitev podatkov datumov iz tekstovne datoteke je bil uporabljen axios.
