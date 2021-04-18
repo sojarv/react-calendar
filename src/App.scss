@@ -1,0 +1,100 @@
+$font-family: 'Raleway',
+sans-serif;
+$blue: #dae6f2;
+$celebration-color: #6b91c0;
+$red: red;
+$black: black;
+$gray-border: #a8a8a8;
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('./images/mountains.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    font-family: $font-family;
+}
+
+#content {
+    width: 50%;
+    margin: auto;
+}
+
+input,
+select {
+    color: $black;
+    padding: 7px;
+    font: 500 1em $font-family;
+    background-color: $blue;
+    border-radius: 10px;
+    border: 1px solid $gray-border;
+}
+
+input:focus,
+select:focus {
+    outline-width: 0;
+}
+
+#inputs {
+    justify-content: space-between;
+    margin: 20px 25px;
+    display: flex;
+    input {
+        height: 24px;
+    }
+    margin-bottom: 10px;
+    #date {
+        width: 150px;
+    }
+    #year-select {
+        width: 60px;
+    }
+    #month-select {
+        height: 40px;
+        width: 150px;
+        margin-right: 10px;
+    }
+    #month-year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#calendar {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    #header-month {
+        font-size: 1.3em;
+    }
+    th {
+        font-weight: 300;
+        height: 45px;
+        width: 10%
+    }
+    td {
+        width: 10%;
+        height: 60px;
+        padding-top: 10px;
+        vertical-align: top;
+    }
+    tr td:nth-child(7) {
+        color: $red
+    }
+    .otherMonth {
+        opacity: 0.5;
+    }
+    .celebration {
+        color: $celebration-color;
+        p {
+            margin-top: 5px;
+            margin-bottom: 0;
+            font-size: 0.9em;
+        }
+    }
+}

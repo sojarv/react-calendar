@@ -1,0 +1,7 @@
+8;2;0;Presernov dan
+19;4;2021;Rok za oddajo 
+15;4;0;Rojstni dan
+2;5;2021;Dan po prazniku dela
+1;1;0;Novo leto
+26;12;0;Dan samostojnosti in enotnosti
+1;5;0;Praznik dela
